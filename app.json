@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "scheme": "com.fypfrontend.app",
+    "name": "FYP FRONTEND",
+    "slug": "FYP-FRONTEND",
+    "privacy":"public",
+    "description":"food delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.fypfrontend.app",
+      "config":{
+        "googleSignIn":{
+          "reservedClientId":"400601526161-vn39vjhp17q7mkd45ce1m064rn6nnee9.apps.googleusercontent.com"
+        }
+      },
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package":"com.fypfrontend.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
